@@ -1,0 +1,169 @@
+*,
+*::after,
+*::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 991px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.d-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.d-flex {
+  display: flex;
+}
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.between-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.column-flex {
+  flex-direction: column;
+}
+.p-relative {
+  position: relative;
+}
+.p-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.ver-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.hor-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.c-white {
+  color: white;
+}
+.c-black {
+  color: black;
+}
+.bg-black {
+  background-color: black;
+}
+.bg-white {
+  background-color: white;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-blue {
+  background-color: blue;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.w-full {
+  width: 100%;
+}
+.h-full {
+  height: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
+body {
+  background-color: pink;
+}
+
+.card {
+  padding: 20px 40px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.card header {
+  font-size: 24px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+.card ul {
+  margin-bottom: 20px;
+  width: 350px;
+}
+.card ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.card ul li img {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+.card ul li h6 {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-size: 16px;
+}
+.card ul li p {
+  color: gray;
+}
+.card button {
+  width: 100%;
+  background-color: palevioletred;
+  border: none;
+  color: white;
+  padding: 15px 0px;
+  border-radius: 8px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 18px;
+  transition: all 0.5s;
+}
+.card button:hover {
+  background-color: pink;
+}
